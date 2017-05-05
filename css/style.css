@@ -1,0 +1,121 @@
+/*universals Section */
+.text-center {
+    text-align: center;
+}
+body{
+    box-sizing: border-box;
+}
+
+
+/*header section begins here*/
+header {
+    background-color:#e40007;
+}
+
+header h1{
+    float: left;
+    margin:0px;
+}
+
+header img{
+    height: 50px;
+}
+
+nav{ 
+    float: right;
+    position: relative;
+    top: 0px;
+    bottom: 20px;
+    left: 10px;
+    right: 50px;
+    list-style-type: none;
+}
+
+nav>ul>li{
+    display: inline;
+    float: right;
+}
+nav>ul>li:hover{
+    cursor: pointer;
+}
+
+/*HERO SECTION Begins Here */
+
+.hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top 175px;
+}
+.hero>h1 {
+    margin: 0px;
+    color: #ffff00;
+    text-align: center;
+}
+
+/*sidebar section*/
+aside {
+    background-color: #000066;
+    border: 2px solid #fff;
+    width:30%;
+    height:400px;
+    float: left;
+    box-sizing: border-box;
+}
+aside ul {
+    List-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+
+}
+
+aside ul li {
+    text-align: center;
+    padding:30px 0px;
+}
+
+aside ul li:hover {
+    background-color: #ffff00;
+    border: 1px dotted #fff;
+    
+}
+aside ul li:hover a {
+    color: #000066;
+    font-weight: 700;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color:white;
+}
+/*MAIN SEction*/
+main{
+    float: right;
+    width:70%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    height:400px;
+}
+
+/*FOOTER SECTION*/
+
+footer {
+    Height: 120px;
+    background-color: #98fb98;
+    clear:both;
+}
+
+.social-media {
+    padding-top: 35px;
+    text-align: center;
+    color: #fff;
+
+ .social-media .fa {
+ color: #fff;
+ font-size: 2em;
+}    
+    
+
+
+
